@@ -4,13 +4,13 @@ export const APPOINTMENTS_MOCK: Appointment[] = [
   {
     id: 'a-001',
     coachId: 'c-001',
-    coachName: 'Sarah Mitchell',
+    coachName: 'Carlo Consignado',
     coachAvatarUrl: null,
-    start: '2026-06-16T14:00:00+07:00',
-    end: '2026-06-16T14:30:00+07:00',
+    start: '2026-06-16T16:00:00+07:00',
+    end: '2026-06-16T16:25:00+07:00',
     timezone: 'Asia/Jakarta',
     status: 'upcoming',
-    level: 'B2 neoPrep+',
+    level: 'A2 neoPrep+',
     joinUrl: 'https://meet.example.com/session/a-001',
     recordingUrl: null,
   },
@@ -42,5 +42,4 @@ export const APPOINTMENTS_MOCK: Appointment[] = [
   },
 ]
 
-// Broken case: no upcoming appointments
 export const APPOINTMENTS_EMPTY_MOCK: Appointment[] = []

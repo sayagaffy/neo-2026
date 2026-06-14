@@ -16,8 +16,14 @@ export interface RecordsMetrics {
   masteryTests: number | null
   coachingSessions: number | null
   progressToCertificate: number | null
+  currentLevel: string | null
   currentCourse: string | null
   currentLevelGoal: string | null
+  weeklyPointsThisWeek: number | null
+  weeklyPointsGoal: number | null
+  studyDaysThisWeek: number | null
+  studyDaysGoal: number | null
+  studyStreak: number | null
   weeklyPoints: WeeklyPoint[]
   certificates: Certificate[]
 }

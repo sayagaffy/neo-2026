@@ -1,9 +1,9 @@
 import type { TokenSummary, TokenType, Transaction } from '@/types'
 
 export const TOKEN_SUMMARY_MOCK: TokenSummary = {
-  balance: 12,
-  used: 8,
-  refunded: 1,
+  balance: 90,
+  used: 30,
+  refunded: 2,
 }
 
 export const TOKEN_TYPES_MOCK: TokenType[] = [

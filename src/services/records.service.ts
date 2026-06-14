@@ -8,6 +8,10 @@ function num(v: unknown): number | null {
   return v == null || isNaN(n) ? null : n
 }
 
+function str(v: unknown): string | null {
+  return typeof v === 'string' && v.trim() ? v.trim() : null
+}
+
 function normalizeRecords(raw: unknown): RecordsMetrics {
   const r = raw as Record<string, unknown>
   return {
@@ -17,12 +21,14 @@ function normalizeRecords(raw: unknown): RecordsMetrics {
     masteryTests: num(r['masteryTests']),
     coachingSessions: num(r['coachingSessions']),
     progressToCertificate: num(r['progressToCertificate']),
-    currentCourse:
-      typeof r['currentCourse'] === 'string' && r['currentCourse'] ? r['currentCourse'] : null,
-    currentLevelGoal:
-      typeof r['currentLevelGoal'] === 'string' && r['currentLevelGoal']
-        ? r['currentLevelGoal']
-        : null,
+    currentLevel: str(r['currentLevel']),
+    currentCourse: str(r['currentCourse']),
+    currentLevelGoal: str(r['currentLevelGoal']),
+    weeklyPointsThisWeek: num(r['weeklyPointsThisWeek']),
+    weeklyPointsGoal: num(r['weeklyPointsGoal']),
+    studyDaysThisWeek: num(r['studyDaysThisWeek']),
+    studyDaysGoal: num(r['studyDaysGoal']),
+    studyStreak: num(r['studyStreak']),
     weeklyPoints: Array.isArray(r['weeklyPoints'])
       ? (r['weeklyPoints'] as RecordsMetrics['weeklyPoints'])
       : [],

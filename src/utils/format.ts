@@ -72,3 +72,44 @@ export function formatCountdown(isoStart: string, now: Date): string {
   if (hrs > 0) return `${hrs}h ${mins}m`
   return `${mins}m`
 }
+
+export function formatCountdownBadge(isoStart: string, now: Date): string {
+  const diff = new Date(isoStart).getTime() - now.getTime()
+  if (diff <= 0) return 'Now'
+  const totalMins = Math.floor(diff / 60000)
+  const days = Math.floor(totalMins / (60 * 24))
+  const hrs = Math.floor((totalMins % (60 * 24)) / 60)
+  if (days >= 2) return `in ${days} days`
+  if (days === 1) return 'in 1 day'
+  if (hrs >= 1) return `in ${hrs}h`
+  return `in ${totalMins}m`
+}
+
+export function formatTimezoneLabel(tz: string, date: Date): string {
+  try {
+    const parts = new Intl.DateTimeFormat('en-US', {
+      timeZone: tz,
+      timeZoneName: 'shortOffset',
+    }).formatToParts(date)
+    const offset = parts.find((p) => p.type === 'timeZoneName')?.value ?? ''
+    const city = tz.split('/').pop()?.replace(/_/g, ' ') ?? tz
+    return `${offset} · ${city}`
+  } catch {
+    return tz
+  }
+}
+
+export function formatSessionRange(isoStart: string, isoEnd: string, tz: string): string {
+  try {
+    const fmt = (iso: string) =>
+      new Intl.DateTimeFormat('en-US', {
+        hour: 'numeric',
+        minute: '2-digit',
+        hour12: false,
+        timeZone: tz,
+      }).format(new Date(iso))
+    return `${fmt(isoStart)} – ${fmt(isoEnd)}`
+  } catch {
+    return isoStart
+  }
+}
