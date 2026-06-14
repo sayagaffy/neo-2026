@@ -1,0 +1,182 @@
+{
+  "D:\\Documents\\Work\\neo-2026\\.oxlintrc.json": {
+    "mtime": 1781457187.739215,
+    "ast_hash": "2db1b165522d4e5e43d0d4f8433689e2",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\.prettierrc.json": {
+    "mtime": 1781457069.572651,
+    "ast_hash": "81e1a85eb3522eed48d5095183125238",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\.vscode\\extensions.json": {
+    "mtime": 1781457187.6423466,
+    "ast_hash": "8bde9906a56636c20a6bd15843d35284",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\env.d.ts": {
+    "mtime": 1781457069.6886597,
+    "ast_hash": "0352474ba2918efe13895edbc3780d94",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\eslint.config.ts": {
+    "mtime": 1781457187.749256,
+    "ast_hash": "8886617f34d078a92128a30999323594",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\package.json": {
+    "mtime": 1781457533.5753803,
+    "ast_hash": "55eaed43a5c42b993b6fbc0974ebb57d",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\src\\App.vue": {
+    "mtime": 1781457069.7123165,
+    "ast_hash": "751439c0fa737dd57e6adaa15d98d218",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\src\\components\\HelloWorld.vue": {
+    "mtime": 1781457069.7229507,
+    "ast_hash": "ccf3aa779a8d6926a06d6f360ea76784",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\src\\components\\TheWelcome.vue": {
+    "mtime": 1781457069.7991064,
+    "ast_hash": "a15cdbe3655e89d7a83a77f954515650",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\src\\components\\WelcomeItem.vue": {
+    "mtime": 1781457069.8116245,
+    "ast_hash": "96a82a139d9303caeaa8ec746a1df20e",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\src\\components\\__tests__\\HelloWorld.spec.ts": {
+    "mtime": 1781457069.5462773,
+    "ast_hash": "f4038eed1c8453e3bb8e2c45cf57243f",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\src\\components\\icons\\IconCommunity.vue": {
+    "mtime": 1781457069.7394278,
+    "ast_hash": "32cf4fb777d971aca8014735d9453823",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\src\\components\\icons\\IconDocumentation.vue": {
+    "mtime": 1781457069.752831,
+    "ast_hash": "68d68fd207b35e046e193dd2fe93f1ab",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\src\\components\\icons\\IconEcosystem.vue": {
+    "mtime": 1781457069.7683945,
+    "ast_hash": "9f9e035ec68b9b11ac2989ac5151221a",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\src\\components\\icons\\IconSupport.vue": {
+    "mtime": 1781457069.7774851,
+    "ast_hash": "8854c68d3082b218d245f1ea730d69ba",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\src\\components\\icons\\IconTooling.vue": {
+    "mtime": 1781457069.788545,
+    "ast_hash": "566807b38eb19307ed3410f2fbbb6357",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\src\\main.ts": {
+    "mtime": 1781457442.3934257,
+    "ast_hash": "1067a03b892fbf0e684dd661df1f0074",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\src\\router\\index.ts": {
+    "mtime": 1781457069.6911776,
+    "ast_hash": "02a9178fa62f3f68233f38a3fec1a798",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\src\\stores\\counter.ts": {
+    "mtime": 1781457069.534451,
+    "ast_hash": "d59fe2308d4bf67b9997286fa5adedde",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\src\\views\\AboutView.vue": {
+    "mtime": 1781457069.6962693,
+    "ast_hash": "baf1a059a4c306a4f5395bb1f5990e84",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\src\\views\\HomeView.vue": {
+    "mtime": 1781457069.7273378,
+    "ast_hash": "00817dd749b55896de1abfa8cbdbf7e5",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\tsconfig.app.json": {
+    "mtime": 1781457449.1526804,
+    "ast_hash": "56ca68e38f9c5ee8ee8902c1102996dc",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\tsconfig.json": {
+    "mtime": 1781457187.5445688,
+    "ast_hash": "aec40fdcbdacf2e95abf0e4c2969429d",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\tsconfig.node.json": {
+    "mtime": 1781457069.6549873,
+    "ast_hash": "71f05a3eb52ee484e78a2232e3650c0b",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\tsconfig.vitest.json": {
+    "mtime": 1781457069.6559775,
+    "ast_hash": "b32ecd2db2e32659eb867de590c2988b",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\vercel.json": {
+    "mtime": 1781457444.853071,
+    "ast_hash": "b27a556809646df721067142b86764e3",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\vite.config.ts": {
+    "mtime": 1781457440.9128478,
+    "ast_hash": "d46d39f7e1968d5af7da765f45e186e4",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\vitest.config.ts": {
+    "mtime": 1781457069.562599,
+    "ast_hash": "fbf1ae958316eb66f11ca04b23d38fff",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\README.md": {
+    "mtime": 1781457187.775863,
+    "ast_hash": "5f6d9e3ee2415c30d8e72f91a2a8e0a5",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\docs\\neo-design-system-spec.md": {
+    "mtime": 1781457979.5750976,
+    "ast_hash": "45ffffa84c17ae745dc6220cd2fba225",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\docs\\neo-desktop-prompt-pack.md": {
+    "mtime": 1781457979.591718,
+    "ast_hash": "4e75ee883e4409b9b1e53cdef4ad844b",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\docs\\neo-frontend-vue-prompt-pack.md": {
+    "mtime": 1781457979.599275,
+    "ast_hash": "3e7fc6ee26d1632a14b8480c181702d8",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\docs\\neo-masterplan.md": {
+    "mtime": 1781457979.5610492,
+    "ast_hash": "0287bb11a89b6b69e4e19b7437d8ccb4",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\docs\\neo-mobile-prompt-pack.md": {
+    "mtime": 1781457979.5836456,
+    "ast_hash": "99b7d1e68273d9b63a410f48698759fd",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\index.html": {
+    "mtime": 1781457187.7743528,
+    "ast_hash": "df655eb460551faf2825b56a9dbf49be",
+    "semantic_hash": ""
+  },
+  "D:\\Documents\\Work\\neo-2026\\src\\assets\\logo.svg": {
+    "mtime": 1781457069.682595,
+    "ast_hash": "346e12ee28bb0e5f5600d47beb4c7a47",
+    "semantic_hash": ""
+  }
+}
