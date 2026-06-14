@@ -1,6 +1,4 @@
 import '@/styles/main.css'
-// Demo styles for the scaffolded example pages — remove when example pages are replaced.
-import './assets/main.css'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'

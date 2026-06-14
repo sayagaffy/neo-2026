@@ -1,0 +1,60 @@
+@theme {
+  /* ── Brand (LOCKED — verifikasi hex vs DS live / brand guide, GATE 0) ── */
+  --color-indigo-700: #3E468D;
+  --color-indigo-600: #44549C;
+  --color-cyan-500:   #0BAAF4;
+  --color-cyan-400:   #40B8F6;
+  --color-cyan-50:    #E6F6FE;
+  --color-logo:       #29B6E8;
+  --color-amber-400:  #FFBF5F;
+
+  /* ── Neutral ramp ── */
+  --color-neutral-900: #1F2A44;
+  --color-neutral-700: #3F4A60;
+  --color-neutral-500: #6B7280;
+  --color-neutral-300: #C7CFDA;
+  --color-neutral-100: #E8EDF4;
+  --color-neutral-50:  #F4F7FB;
+  --color-surface:     #ECF2F9;
+  --color-card:        #FFFFFF;
+
+  /* ── State ── */
+  --color-success: #16A34A;
+  --color-warning: #D97706;
+  --color-danger:  #EE5A5A;
+
+  /* ── Semantic roles — PAKAI INI di komponen ── */
+  --color-primary:      var(--color-cyan-500);
+  --color-primary-soft: var(--color-cyan-50);
+  --color-nav:          var(--color-indigo-700);
+  --color-text:         var(--color-neutral-900);
+  --color-text-muted:   var(--color-neutral-500);
+  --color-border:       var(--color-neutral-300);
+  --color-bg:           var(--color-surface);
+  --color-rating:       var(--color-amber-400);
+  --color-info:         var(--color-cyan-500);
+
+  /* ── Typography ── */
+  --font-sans:    "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", var(--font-sans);
+
+  --text-display: 1.75rem;   --text-display--line-height: 2.125rem;
+  --text-h1:      1.5rem;    --text-h1--line-height: 1.875rem;
+  --text-h2:      1.25rem;   --text-h2--line-height: 1.625rem;
+  --text-h3:      1.0625rem; --text-h3--line-height: 1.5rem;
+  --text-body:    1rem;      --text-body--line-height: 1.5rem;
+  --text-small:   0.875rem;  --text-small--line-height: 1.25rem;
+  --text-caption: 0.75rem;   --text-caption--line-height: 1rem;
+  --text-stat:    2rem;      --text-stat--line-height: 2.25rem;
+
+  /* ── Radius ── */
+  --radius-card:   14px;
+  --radius-button: 10px;
+  --radius-input:  10px;
+  --radius-sheet:  20px;
+
+  /* ── Elevation ── */
+  --shadow-e1: 0 1px 2px rgba(16,24,40,.06);
+  --shadow-e2: 0 2px 12px rgba(16,24,40,.08);
+  --shadow-e3: 0 -4px 24px rgba(16,24,40,.12);
+}
