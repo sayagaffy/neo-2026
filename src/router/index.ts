@@ -25,13 +25,13 @@ const router = createRouter({
           component: () => import('@/views/BookView.vue'),
         },
         {
-          path: 'my-records',
-          name: 'my-records',
+          path: 'records',
+          name: 'records',
           component: () => import('@/views/MyRecordsView.vue'),
         },
         {
-          path: 'precall-test',
-          name: 'precall-test',
+          path: 'precall',
+          name: 'precall',
           component: () => import('@/views/PrecallTestView.vue'),
         },
         {
