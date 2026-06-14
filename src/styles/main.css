@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+
+/*
+ * Global stylesheet (Tailwind v4 entry).
+ * Configure design tokens with @theme here — Tailwind v4 has no tailwind.config.js. Example:
+ *   @theme {
+ *     --color-brand-500: oklch(0.62 0.19 256);
+ *     --font-sans: 'Inter', sans-serif;
+ *   }
+ */
