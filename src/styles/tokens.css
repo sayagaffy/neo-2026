@@ -1,60 +1,89 @@
 @theme {
-  /* ── Brand (LOCKED — verifikasi hex vs DS live / brand guide, GATE 0) ── */
-  --color-indigo-700: #3E468D;
-  --color-indigo-600: #44549C;
-  --color-cyan-500:   #0BAAF4;
-  --color-cyan-400:   #40B8F6;
-  --color-cyan-50:    #E6F6FE;
-  --color-logo:       #29B6E8;
-  --color-amber-400:  #FFBF5F;
+  /* ── Brand (CONFIRMED vs DS live 2026-06-15) ── */
+  --color-indigo-700: #3E468D;   /* nav base */
+  --color-indigo-600: #44549C;   /* nav gradient end */
+  --color-cyan-500:   #0BAAF4;   /* primary CTA base */
+  --color-cyan-400:   #40B8F6;   /* primary gradient end */
+  --color-cyan-50:    #E4F4FE;   /* primary soft (DS: --primary-soft) */
+  --color-cyan-40:    #CDEBFD;   /* primary soft-2 (DS: --primary-soft-2) */
+  --color-logo:       #49C5FE;   /* wordmark "neo" (DS: --logo-cyan) */
+  --color-amber-400:  #FFBF5F;   /* rating ONLY */
 
-  /* ── Neutral ramp ── */
+  /* ── Neutral ramp (CONFIRMED) ── */
+  --color-neutral-950: #141B2E;
   --color-neutral-900: #1F2A44;
-  --color-neutral-700: #3F4A60;
-  --color-neutral-500: #6B7280;
-  --color-neutral-300: #C7CFDA;
-  --color-neutral-100: #E8EDF4;
+  --color-neutral-800: #2E3A54;
+  --color-neutral-700: #45506B;
+  --color-neutral-600: #5E6A82;
+  --color-neutral-500: #7A859A;
+  --color-neutral-400: #9AA4B6;
+  --color-neutral-300: #C2CBDA;
+  --color-neutral-200: #DCE3EE;
+  --color-neutral-100: #ECF2F9;
   --color-neutral-50:  #F4F7FB;
-  --color-surface:     #ECF2F9;
+  --color-surface:     #ECF2F9;  /* = neutral-100, app background */
   --color-card:        #FFFFFF;
 
-  /* ── State ── */
-  --color-success: #16A34A;
-  --color-warning: #D97706;
-  --color-danger:  #EE5A5A;
+  /* ── State (CONFIRMED) ── */
+  --color-success:      #1FA971;
+  --color-success-soft: #E2F5EE;
+  --color-success-text: #137A51;
+  --color-warning:      #E8833A;
+  --color-warning-soft: #FCEEDF;
+  --color-warning-text: #B5611F;
+  --color-danger:       #E5484D;
+  --color-danger-soft:  #FCE9EA;
+  --color-danger-text:  #B42A2F;
+  --color-info:         #0BAAF4;
+  --color-info-soft:    #E4F4FE;
+  --color-info-text:    #0676AA;
+  --color-star-empty:   #E2E8F1;
 
   /* ── Semantic roles — PAKAI INI di komponen ── */
-  --color-primary:      var(--color-cyan-500);
-  --color-primary-soft: var(--color-cyan-50);
-  --color-nav:          var(--color-indigo-700);
-  --color-text:         var(--color-neutral-900);
-  --color-text-muted:   var(--color-neutral-500);
-  --color-border:       var(--color-neutral-300);
-  --color-bg:           var(--color-surface);
-  --color-rating:       var(--color-amber-400);
-  --color-info:         var(--color-cyan-500);
+  --color-primary:        var(--color-cyan-500);
+  --color-primary-soft:   var(--color-cyan-50);
+  --color-primary-soft-2: var(--color-cyan-40);
+  --color-nav:            var(--color-indigo-700);
+  --color-text:           var(--color-neutral-900);
+  --color-text-secondary: var(--color-neutral-700);
+  --color-text-muted:     var(--color-neutral-500);
+  --color-text-disabled:  var(--color-neutral-400);
+  --color-border:         var(--color-neutral-200);
+  --color-border-strong:  var(--color-neutral-300);
+  --color-bg:             var(--color-surface);
+  --color-rating:         var(--color-amber-400);
 
-  /* ── Typography ── */
-  --font-sans:    "Inter", ui-sans-serif, system-ui, sans-serif;
-  --font-display: "Plus Jakarta Sans", var(--font-sans);
+  /* ── Typography — Plus Jakarta Sans ONLY (confirmed DS live) ── */
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
 
-  --text-display: 1.75rem;   --text-display--line-height: 2.125rem;
-  --text-h1:      1.5rem;    --text-h1--line-height: 1.875rem;
-  --text-h2:      1.25rem;   --text-h2--line-height: 1.625rem;
-  --text-h3:      1.0625rem; --text-h3--line-height: 1.5rem;
-  --text-body:    1rem;      --text-body--line-height: 1.5rem;
-  --text-small:   0.875rem;  --text-small--line-height: 1.25rem;
-  --text-caption: 0.75rem;   --text-caption--line-height: 1rem;
-  --text-stat:    2rem;      --text-stat--line-height: 2.25rem;
+  /* Type scale (CONFIRMED vs DS live; mobile-first) */
+  --text-display: 2rem;       --text-display--line-height: 1.18;   /* 32px / hero */
+  --text-h1:      1.75rem;    --text-h1--line-height: 1.21;        /* 28px */
+  --text-h2:      1.5rem;     --text-h2--line-height: 1.25;        /* 24px */
+  --text-h3:      1.25rem;    --text-h3--line-height: 1.35;        /* 20px */
+  --text-title:   1.125rem;   --text-title--line-height: 1.4;      /* 18px / card titles */
+  --text-body-lg: 1.0625rem;  --text-body-lg--line-height: 1.5;    /* 17px */
+  --text-body:    1rem;       --text-body--line-height: 1.5;       /* 16px — minimum */
+  --text-small:   0.875rem;   --text-small--line-height: 1.45;     /* 14px */
+  --text-caption: 0.8125rem;  --text-caption--line-height: 1.4;    /* 13px */
+  --text-label:   0.75rem;    --text-label--line-height: 1.3;      /* 12px / overline */
+  --text-stat:    2rem;       --text-stat--line-height: 1.18;      /* 32px / big numbers */
 
-  /* ── Radius ── */
+  /* ── Radius (CONFIRMED) ── */
   --radius-card:   14px;
   --radius-button: 10px;
   --radius-input:  10px;
-  --radius-sheet:  20px;
+  --radius-sheet:  20px;  /* = --radius-lg in DS */
+  --radius-pill:   999px;
+  --radius-sm:     8px;
+  --radius-xs:     6px;
 
-  /* ── Elevation ── */
-  --shadow-e1: 0 1px 2px rgba(16,24,40,.06);
-  --shadow-e2: 0 2px 12px rgba(16,24,40,.08);
-  --shadow-e3: 0 -4px 24px rgba(16,24,40,.12);
+  /* ── Elevation (CONFIRMED — base rgba matches --neutral-900) ── */
+  --shadow-e1: 0 1px 2px rgba(31,42,68,.06);
+  --shadow-e2: 0 2px 8px rgba(31,42,68,.06);
+  --shadow-e3: 0 -8px 32px rgba(20,27,46,.16);   /* sheet lift */
+  --shadow-card: var(--shadow-e2);
+  --shadow-primary: 0 6px 16px rgba(11,170,244,.28);  /* CTA glow */
 }

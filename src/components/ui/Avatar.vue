@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import { getInitials, getAvatarColor } from '@/utils/avatar'
+import { getInitials, getAvatarGradient } from '@/utils/avatar'
 
 const props = withDefaults(
   defineProps<{
@@ -14,7 +14,7 @@ const props = withDefaults(
 const hasError = ref(false)
 const showImage = computed(() => !!props.src && !hasError.value)
 const initials = computed(() => getInitials(props.name))
-const bgColor = computed(() => getAvatarColor(props.name))
+const bgGradient = computed(() => getAvatarGradient(props.name))
 </script>
 
 <template>
@@ -34,7 +34,7 @@ const bgColor = computed(() => getAvatarColor(props.name))
     <div
       v-else
       class="flex size-full items-center justify-center font-semibold text-white"
-      :style="{ backgroundColor: bgColor, fontSize: size * 0.38 + 'px' }"
+      :style="{ background: bgGradient, fontSize: size * 0.38 + 'px' }"
       aria-hidden="true"
     >
       {{ initials }}

@@ -5,17 +5,17 @@ const props = defineProps<{
 }>()
 
 const colorMap: Record<typeof props.tone, string> = {
-  success: 'bg-green-50 text-success',
-  warning: 'bg-amber-50 text-warning',
-  danger: 'bg-red-50 text-danger',
-  info: 'bg-primary-soft text-primary',
+  success: 'bg-success-soft text-success-text',
+  warning: 'bg-warning-soft text-warning-text',
+  danger:  'bg-danger-soft text-danger-text',
+  info:    'bg-info-soft text-info-text',
   neutral: 'bg-neutral-100 text-text-muted',
 }
 </script>
 
 <template>
   <span
-    :class="['inline-flex items-center rounded-full px-2.5 py-0.5 text-caption font-medium', colorMap[tone]]"
+    :class="['inline-flex items-center rounded-pill px-2.5 py-0.5 text-label font-semibold', colorMap[tone]]"
   >
     {{ label }}
   </span>

@@ -1,4 +1,11 @@
-const COLORS = ['#3E468D', '#44549C', '#0BAAF4', '#29B6E8', '#16A34A', '#D97706', '#EE5A5A']
+/* Avatar tint gradients — from DS live (confirmed 2026-06-15) */
+const GRADIENTS = [
+  'linear-gradient(135deg, #3E468D, #44549C)',
+  'linear-gradient(135deg, #0BAAF4, #40B8F6)',
+  'linear-gradient(135deg, #1FA971, #3FBE8C)',
+  'linear-gradient(135deg, #5E6A82, #7A859A)',
+  'linear-gradient(135deg, #6B5BD2, #8A7BF0)',
+]
 
 export function getInitials(name: string): string {
   const parts = name.trim().split(/\s+/).filter(Boolean)
@@ -8,8 +15,8 @@ export function getInitials(name: string): string {
   return a.slice(0, 2).toUpperCase() || '?'
 }
 
-export function getAvatarColor(name: string): string {
+export function getAvatarGradient(name: string): string {
   let h = 0
   for (let i = 0; i < name.length; i++) h = (h * 31 + name.charCodeAt(i)) >>> 0
-  return COLORS[h % COLORS.length] ?? '#3E468D'
+  return GRADIENTS[h % GRADIENTS.length] ?? GRADIENTS[0]!
 }

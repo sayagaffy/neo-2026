@@ -21,7 +21,7 @@ const filled = computed(() => (props.value !== null ? Math.round(props.value) : 
       :key="i"
       :size="16"
       :stroke-width="1.5"
-      :class="i <= filled ? 'fill-rating text-rating' : 'fill-neutral-200 text-neutral-200'"
+      :class="i <= filled ? 'fill-rating text-rating' : 'fill-star-empty text-star-empty'"
     />
   </div>
 </template>
